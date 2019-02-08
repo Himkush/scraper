@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\lenovo\AppData\Local\conda\conda\envs\scrapyenvironment\lib\site-packages\spyder\app\mainwindow.py", line 3284, in main
+    mainwindow = run_spyder(app, options, args)
+  File "C:\Users\lenovo\AppData\Local\conda\conda\envs\scrapyenvironment\lib\site-packages\spyder\app\mainwindow.py", line 3139, in run_spyder
+    main.setup()
+  File "C:\Users\lenovo\AppData\Local\conda\conda\envs\scrapyenvironment\lib\site-packages\spyder\app\mainwindow.py", line 813, in setup
+    message=_("Spyder Internal Console\n\n"
+  File "C:\Users\lenovo\AppData\Local\conda\conda\envs\scrapyenvironment\lib\site-packages\spyder\plugins\console.py", line 80, in __init__
+    self.find_widget = FindReplace(self)
+  File "C:\Users\lenovo\AppData\Local\conda\conda\envs\scrapyenvironment\lib\site-packages\spyder\widgets\findreplace.py", line 74, in __init__
+    adjust_to_minimum=False)
+  File "C:\Users\lenovo\AppData\Local\conda\conda\envs\scrapyenvironment\lib\site-packages\spyder\widgets\comboboxes.py", line 138, in __init__
+    BaseComboBox.__init__(self, parent)
+  File "C:\Users\lenovo\AppData\Local\conda\conda\envs\scrapyenvironment\lib\site-packages\spyder\widgets\comboboxes.py", line 40, in __init__
+    self.setEditable(True)
+KeyboardInterrupt
